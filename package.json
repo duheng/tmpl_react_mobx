@@ -1,0 +1,21 @@
+{
+  "name": "react_mobx",
+  "version": "0.0.1",
+  "description": "react for mobx spa",
+  "main": "app.js",
+  "author": "duheng",
+  "license": "ISC",
+  "scripts": {
+    "start": "luban start",
+    "test": "luban test",
+    "release": "luban release",
+    "luban": "luban",
+    "prettier": "prettier --write --config .prettierrc \"src/**/*.{js,css,scss,less}\""
+  },
+  "dependencies": {
+    "mobx": "^5.15.2",
+    "mobx-react": "^6.1.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
